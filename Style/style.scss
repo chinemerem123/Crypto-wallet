@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .bg-color{
@@ -20,6 +24,14 @@ body{
     align-items: center;
 }
 
+@mixin item-active{
+    border-right: 3px solid #5593ff;
+    transition: 0.5s;
+    font-weight: bold;
+    i{
+        color: #5593ff;
+    }
+}
 .side-nav{
 width: 230px;
 height: 100vh;
@@ -28,13 +40,58 @@ left: 0;
 top: 0;
 display: block;
 border-right: 1px solid rgb(74, 74, 74);
+
+.nav-items{
+    font-size: 14px;
+    .item{
+        text-decoration: none;
+   
+        transition: 0.2s;
+        color: rgb(230, 230, 230);
+       
+        .count-noti{
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background-color: red;
+            font-size: 10px;
+            color: white;
+            border-radius: 50%;
+            top: 0;
+            right: -25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &:hover{
+            @include item-active();
+        }
+    }
+
+    .active{
+        @include item-active();
+    }
+}
 }
 
+.nav-footer{
+position: absolute;
+bottom: 0;
+padding-top: 20px;
+padding-bottom: 20px;;
+a{
+    text-decoration: none;
+}
+
+}
 .interface{
     width: 85%;
     margin-left: 230px;
     height: 100vh;
 }
+
+
 
 @media screen and (max-width:800px){
     .side-nav{
