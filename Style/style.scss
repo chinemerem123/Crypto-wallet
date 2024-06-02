@@ -101,7 +101,8 @@ a{
     }
 
     .not-pro{
-
+position: absolute;
+right: 10px;
         .notification{
             position: relative;
             width: 42px;
@@ -111,6 +112,7 @@ a{
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-right: 30px;
 
             .count-noti{
                 position: absolute;
@@ -128,6 +130,25 @@ a{
             span{
                 font-size: 10px;
             }
+            }
+        }
+
+        .profile-holder{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                border-radius:50%;
+                width: 42px;
+                height: 42px;
+            }
+
+            .ID{
+                .gray{
+                    color: gray;
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -151,6 +172,21 @@ a{
     .interface{
         margin-left: 0;
         width: 100%;
+
+        .not-pro{
+            transform: scale(0.8);
+            right: 0;
+            margin-top: -10px;
+    
+            .profile-holder{
+                .notification{
+                    margin-right: 15px;
+                }
+                .ID{
+                    display: none;
+                }
+            }
+        }
     }
 
     .bottom-nav{
@@ -203,4 +239,6 @@ a{
             }
         }
     }
+
+  
 }

@@ -93,6 +93,10 @@ body {
 .interface .header .title {
   font-weight: bold;
 }
+.interface .not-pro {
+  position: absolute;
+  right: 10px;
+}
 .interface .not-pro .notification {
   position: relative;
   width: 42px;
@@ -102,6 +106,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 30px;
 }
 .interface .not-pro .notification .count-noti {
   position: absolute;
@@ -119,6 +124,20 @@ body {
 .interface .not-pro .notification .count-noti span {
   font-size: 10px;
 }
+.interface .not-pro .profile-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interface .not-pro .profile-holder img {
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+}
+.interface .not-pro .profile-holder .ID .gray {
+  color: gray;
+  font-size: 12px;
+}
 
 .bottom-nav {
   display: none;
@@ -131,6 +150,17 @@ body {
   .interface {
     margin-left: 0;
     width: 100%;
+  }
+  .interface .not-pro {
+    transform: scale(0.8);
+    right: 0;
+    margin-top: -10px;
+  }
+  .interface .not-pro .profile-holder .notification {
+    margin-right: 15px;
+  }
+  .interface .not-pro .profile-holder .ID {
+    display: none;
   }
   .bottom-nav {
     display: block;
