@@ -45,7 +45,7 @@ border-right: 1px solid rgb(74, 74, 74);
     font-size: 14px;
     .item{
         text-decoration: none;
-   
+        margin-top: 35px;
         transition: 0.2s;
         color: rgb(230, 230, 230);
        
@@ -89,6 +89,48 @@ a{
     width: 85%;
     margin-left: 230px;
     height: 100vh;
+
+    .header{
+        position: relative;
+        width: 100%;
+        
+
+        .title{
+            font-weight: bold;
+        }
+    }
+
+    .not-pro{
+
+        .notification{
+            position: relative;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .count-noti{
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                border-radius: 50%;
+                background-color: #5593ff;
+                color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 0;
+            top: 0;
+
+            span{
+                font-size: 10px;
+            }
+            }
+        }
+    }
 }
 
 
@@ -97,7 +139,12 @@ a{
 }
 
 
+
 @media screen and (max-width:800px){
+
+    @mixin mag{
+        margin-left: 40px;
+    }
     .side-nav{
         display: none;
     }
@@ -121,6 +168,9 @@ a{
                 i{
                     color: #5593ff;
                 }
+                svg{
+                    fill: #5593ff;
+                }
             }
 
             a{
@@ -128,8 +178,24 @@ a{
                 text-decoration: none;
                 font-size: 12px;
                 color:white;
-                i{
-                    font-size: 14px;
+
+                &:nth-child(2){
+                    @include mag();
+                }
+
+                &:nth-child(3){
+                    @include mag();
+                }
+
+                &:nth-child(4){
+                    @include mag();
+                }
+
+                &:nth-child(5){
+                    @include mag();
+                }
+                svg{
+                    fill: rgba(255, 255, 255,0.4);
                 }
                 span{
                     display: none;

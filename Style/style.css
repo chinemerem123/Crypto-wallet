@@ -36,6 +36,7 @@ body {
 }
 .side-nav .nav-items .item {
   text-decoration: none;
+  margin-top: 35px;
   transition: 0.2s;
   color: rgb(230, 230, 230);
 }
@@ -85,6 +86,39 @@ body {
   margin-left: 230px;
   height: 100vh;
 }
+.interface .header {
+  position: relative;
+  width: 100%;
+}
+.interface .header .title {
+  font-weight: bold;
+}
+.interface .not-pro .notification {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.interface .not-pro .notification .count-noti {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #5593ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+}
+.interface .not-pro .notification .count-noti span {
+  font-size: 10px;
+}
 
 .bottom-nav {
   display: none;
@@ -114,14 +148,29 @@ body {
   .bottom-nav .items .active i {
     color: #5593ff;
   }
+  .bottom-nav .items .active svg {
+    fill: #5593ff;
+  }
   .bottom-nav .items a {
     position: relative;
     text-decoration: none;
     font-size: 12px;
     color: white;
   }
-  .bottom-nav .items a i {
-    font-size: 14px;
+  .bottom-nav .items a:nth-child(2) {
+    margin-left: 40px;
+  }
+  .bottom-nav .items a:nth-child(3) {
+    margin-left: 40px;
+  }
+  .bottom-nav .items a:nth-child(4) {
+    margin-left: 40px;
+  }
+  .bottom-nav .items a:nth-child(5) {
+    margin-left: 40px;
+  }
+  .bottom-nav .items a svg {
+    fill: rgba(255, 255, 255, 0.4);
   }
   .bottom-nav .items a span {
     display: none;
