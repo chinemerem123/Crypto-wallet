@@ -185,6 +185,11 @@ body {
     font-size: 30px;
     font-weight: bold;
   }
+  .interface .card-bal .btn-hold {
+    position: relative;
+    width: 100% !important;
+    margin-top: 20px;
+  }
   .bottom-nav {
     display: block;
     position: fixed;
