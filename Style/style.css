@@ -93,6 +93,7 @@ body {
   width: 100%;
 }
 .interface .header .title {
+  font-size: 20px;
   font-weight: bold;
 }
 .interface .not-pro {
@@ -140,12 +141,21 @@ body {
   color: gray;
   font-size: 12px;
 }
+.interface .card-bal {
+  border: none;
+}
 .interface .card-bal .h6 {
   color: gray;
 }
 .interface .card-bal .amount-display {
   font-size: 40px;
   font-weight: bold;
+}
+.interface .card-bal .btn-hold {
+  position: relative;
+  width: 50% !important;
+  left: 25%;
+  margin-top: 20px;
 }
 
 .bottom-nav {
@@ -170,6 +180,10 @@ body {
   }
   .interface .not-pro .profile-holder .ID {
     display: none;
+  }
+  .interface .card-bal .amount-display {
+    font-size: 30px;
+    font-weight: bold;
   }
   .bottom-nav {
     display: block;

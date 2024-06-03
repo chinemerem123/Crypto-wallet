@@ -97,6 +97,7 @@ a{
         
 
         .title{
+            font-size: 20px;
             font-weight: bold;
         }
     }
@@ -155,12 +156,20 @@ right: 10px;
     }
 
     .card-bal{
+        border: none;
         .h6{
             color: gray;
         }
         .amount-display{
             font-size: 40px;
             font-weight: bold;
+        }
+
+        .btn-hold{
+            position: relative;
+            width: 50% !important;
+            left: calc(50% - 25%);
+            margin-top: 20px;
         }
         
     }
@@ -198,6 +207,14 @@ right: 10px;
                     display: none;
                 }
             }
+        }
+
+        .card-bal{
+            .amount-display{
+                font-size: 30px;
+                font-weight: bold;
+            }
+            
         }
     }
 
