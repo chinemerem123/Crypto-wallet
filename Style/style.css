@@ -344,14 +344,14 @@ body {
   color: #525252;
   text-align: right;
 }
-.summary-box button {
+.summary-box a {
   margin-top: 20px;
   width: 97%;
   background-color: #4388ff;
   padding: 12px;
   color: white;
 }
-.summary-box button:hover {
+.summary-box a:hover {
   background-color: #2575ff;
   color: white;
 }
