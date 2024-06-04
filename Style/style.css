@@ -155,7 +155,36 @@ body {
   position: relative;
   width: 50% !important;
   left: 25%;
-  margin-top: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.interface .card-bal .btn-hold a:nth-child(2) {
+  margin-left: 90px;
+}
+.interface .card-bal .btn-hold a:nth-child(3) {
+  margin-left: 90px;
+}
+.interface .card-bal .btn-hold a .action-hold {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: calc(50% - 35px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.interface .card-bal .btn-hold a .action-hold svg {
+  fill: white;
+  width: 35px;
+  height: 35px;
+}
+.interface .card-bal .btn-hold a span {
+  position: relative;
+  top: 10px;
 }
 
 .bottom-nav {
@@ -188,7 +217,32 @@ body {
   .interface .card-bal .btn-hold {
     position: relative;
     width: 100% !important;
-    margin-top: 20px;
+    left: 0%;
+    margin-top: 25px;
+  }
+  .interface .card-bal .btn-hold a:nth-child(2) {
+    margin-left: 45px;
+  }
+  .interface .card-bal .btn-hold a:nth-child(3) {
+    margin-left: 45px;
+  }
+  .interface .card-bal .btn-hold a .action-hold {
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  .interface .card-bal .btn-hold a .action-hold svg {
+    fill: white;
+    width: 25px;
+    height: 25px;
+  }
+  .interface .card-bal .btn-hold a .action-hold span {
+    font-size: 12px;
   }
   .bottom-nav {
     display: block;
