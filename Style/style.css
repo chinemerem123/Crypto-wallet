@@ -238,7 +238,7 @@ body {
     height: 25px;
   }
   .interface .card-bal .btn-hold a .action-hold span {
-    font-size: 10px;
+    font-size: 10px !important;
   }
   .bottom-nav {
     display: block;
