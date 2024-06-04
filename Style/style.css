@@ -222,10 +222,10 @@ body {
     margin-top: 25px;
   }
   .interface .card-bal .btn-hold a:nth-child(2) {
-    margin-left: 45px;
+    margin-left: 50px;
   }
   .interface .card-bal .btn-hold a:nth-child(3) {
-    margin-left: 45px;
+    margin-left: 50px;
   }
   .interface .card-bal .btn-hold a .action-hold {
     width: 50px;
@@ -237,8 +237,8 @@ body {
     width: 25px;
     height: 25px;
   }
-  .interface .card-bal .btn-hold a .action-hold span {
-    font-size: 10px !important;
+  .interface .card-bal .btn-hold a span {
+    font-size: 12px;
   }
   .bottom-nav {
     display: block;

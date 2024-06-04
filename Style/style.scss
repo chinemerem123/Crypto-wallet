@@ -261,25 +261,27 @@ right: 0px;
                 
             a{
                 &:nth-child(2){
-                  margin-left: 45px;
+                  margin-left: 50px;
                 }
       
                 &:nth-child(3){
-                  margin-left: 45px;
+                  margin-left: 50px;
                 }
                       .action-hold{
                      
                           width: 50px;
                           height:50px;
                           left: calc(50% - 25px);
+
                           svg{
                               fill: white;
                               width: 25px;
                               height: 25px;
                           }
-                          span{
-                            font-size: 10px !important;
-                          }
+                        
+                      }
+                      span{
+                        font-size: 12px;
                       }
       
                     
