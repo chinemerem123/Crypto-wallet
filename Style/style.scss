@@ -90,10 +90,16 @@ a{
     width: 85%;
     margin-left: 230px;
     height: 100vh;
+    overflow-y: auto;
 
     .header{
-        position: relative;
+        background-color:rgba(21, 23, 25,0.3);
+        position: sticky;
+        top: 0;
         width: 100%;
+        height: 70px;
+        align-items: center;
+        backdrop-filter: blur(5px);
         
 
         .title{
@@ -210,6 +216,34 @@ right: 0px;
         }
         
     }
+
+    .tokens{
+        border-top: 1px solid rgba(255, 255, 255,0.1);
+position: relative;
+        .token{
+            margin-top: 35px;
+            align-items: center;
+            img{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+            }
+
+            .token-name{
+                margin-left: 20px;
+
+                .amount-read{
+                    color: rgba(255, 255, 255,0.5);
+                }
+            }
+        }
+
+        .owned-token{
+            position: absolute;
+            right: 0;
+            color: rgba(255, 255, 255,0.5);
+        }
+    }
 }
 
 
@@ -231,18 +265,60 @@ right: 0px;
         margin-left: 0;
         width: 100%;
 
-        .not-pro{
-            transform: scale(0.8);
-            right: 0;
-            margin-top: -10px;
+        .header{
+            height: 50px;
+            .not-pro{
+                transform: scale(0.8);
+                right: 0;
+                margin-top: -10px;
+        
+                .profile-holder{
+                    .notification{
+                        margin-right: 15px;
+                    }
+                    .ID{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .tokens{
+            border-top: 1px solid rgba(255, 255, 255,0.1);
+    position: relative;
+
+    height: 47vh;
+    overflow-y: auto;
+            .token{
+                margin-top: 35px;
+                align-items: center;
+                img{
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                }
     
-            .profile-holder{
-                .notification{
-                    margin-right: 15px;
+                .token-name{
+                    margin-left: 10px;
+    .h6{
+        font-size: 15px;
+    }
+                    .amount-read{
+                        color: rgba(255, 255, 255,0.5);
+                        font-size: 14px;
+                    }
                 }
-                .ID{
-                    display: none;
+            }
+    
+            .owned-token{
+                text-align: right;
+                font-size: 14px;
+                .owned{
+                    color: white;
                 }
+               .amount{
+                color: rgba(255, 255, 255,0.5);
+               }
             }
         }
 
@@ -298,6 +374,7 @@ right: 0px;
         display: block;
         position: fixed;
         bottom: 0;
+        z-index: 10;
 
         .items{
             position: relative;
