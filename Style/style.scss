@@ -319,7 +319,7 @@ overflow-y: auto;
     width: 50%;
     position: relative;
     left: calc(50% - 25%);
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 20px;
 
     form{
@@ -335,9 +335,77 @@ overflow-y: auto;
                 background-color: transparent;
             }
         }
+        span{
+            font-size: 12px;
+            margin-top: 10px;
+        }
         label{
           color: gray;
         }
+        button{
+            padding: 12px;
+            width: 100%;
+            color: white;
+            background-color: #5593ff;
+
+            &:hover{
+                background-color: #2575ff !important;
+                color: white !important;
+            }
+        }
+    }
+}
+
+.summary-box{
+    position: relative;
+    left: calc(50% - 20%);
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    background-color: #202020;
+    border-radius: 20px;
+
+    svg{
+        width: 80px;
+        height: 80px;
+        fill: orange;
+    }
+
+    .h5{
+        color: rgb(196, 196, 196);
+        margin-top: 20px;
+    }
+    .sum{
+        position: relative;
+        color: gray;
+        font-size: 13px;
+
+        .res{
+            position: absolute;
+            right: 5px;
+        color: #525252;
+        text-align: right;
+        }
+    }
+
+    button{
+        margin-top: 20px;
+        width: 97%;
+        background-color: #4388ff;
+        padding: 12px;
+        color: white;
+
+        &:hover{
+            background-color: #2575ff;
+            color: white;
+        }
+    }
+    
+    .note{
+        padding: 12px;
+        font-size: 12px;
+        text-align: left;
+        color: rgb(82, 82, 82);
     }
 }
 
@@ -502,6 +570,26 @@ overflow-y: auto;
            }
         }
     }
+}
+
+.send-box{
+    width: 100%;
+    left: calc(50% - 50%);
+
+    form{
+        input{
+            padding: 10px;
+        }
+        button{
+            padding: 10px;
+        }
+    }
+   
+}
+
+.summary-box{
+    width: 100%;
+    left: calc(50% - 50%);
 }
    
 

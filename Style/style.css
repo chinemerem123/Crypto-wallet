@@ -281,7 +281,7 @@ body {
   width: 50%;
   position: relative;
   left: 25%;
-  margin-top: 30px;
+  margin-top: 50px;
   border-radius: 20px;
 }
 .send-box form {
@@ -297,8 +297,69 @@ body {
 .send-box form input:focus {
   background-color: transparent;
 }
+.send-box form span {
+  font-size: 12px;
+  margin-top: 10px;
+}
 .send-box form label {
   color: gray;
+}
+.send-box form button {
+  padding: 12px;
+  width: 100%;
+  color: white;
+  background-color: #5593ff;
+}
+.send-box form button:hover {
+  background-color: #2575ff !important;
+  color: white !important;
+}
+
+.summary-box {
+  position: relative;
+  left: 30%;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  background-color: #202020;
+  border-radius: 20px;
+}
+.summary-box svg {
+  width: 80px;
+  height: 80px;
+  fill: orange;
+}
+.summary-box .h5 {
+  color: rgb(196, 196, 196);
+  margin-top: 20px;
+}
+.summary-box .sum {
+  position: relative;
+  color: gray;
+  font-size: 13px;
+}
+.summary-box .sum .res {
+  position: absolute;
+  right: 5px;
+  color: #525252;
+  text-align: right;
+}
+.summary-box button {
+  margin-top: 20px;
+  width: 97%;
+  background-color: #4388ff;
+  padding: 12px;
+  color: white;
+}
+.summary-box button:hover {
+  background-color: #2575ff;
+  color: white;
+}
+.summary-box .note {
+  padding: 12px;
+  font-size: 12px;
+  text-align: left;
+  color: rgb(82, 82, 82);
 }
 
 @media screen and (max-width: 800px) {
@@ -426,6 +487,20 @@ body {
   }
   .withdraw-content .search-tokens .owned-token .amount {
     color: rgba(255, 255, 255, 0.5);
+  }
+  .send-box {
+    width: 100%;
+    left: 0%;
+  }
+  .send-box form input {
+    padding: 10px;
+  }
+  .send-box form button {
+    padding: 10px;
+  }
+  .summary-box {
+    width: 100%;
+    left: 0%;
   }
   .bottom-nav {
     display: block;
