@@ -256,6 +256,63 @@ overflow-y: auto;
     display: none;
 }
 
+.withdraw-content{
+    .search-bar{
+        padding: 20px;
+        width: 50%;
+        border-radius: 50px;
+        align-items: center;
+        background-color: rgba(100, 100, 100, 0.1);
+    
+        i{
+            margin-left: 10px;
+            color: gray;
+        }
+        input{
+            background-color: transparent;
+            border: none;
+            margin-left: 10px;
+            width: 90%;
+            outline: none;
+        }
+    }
+    
+    .search-tokens{
+    position: relative;
+    height: 66vh;
+    overflow-y: auto;
+    
+    &::-webkit-scrollbar{
+    display: none;
+    }
+        .token{
+            align-items: center;
+
+            img{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+            }
+    
+            .token-name{
+                margin-left: 20px;
+    
+                .amount-read{
+                    color: rgba(255, 255, 255,0.5);
+                }
+            }
+        }
+    
+        .owned-token{
+            text-align: right;
+            position: absolute;
+            right: 0;
+            color: rgba(255, 255, 255,0.5);
+        }
+    }
+}
+
+
 
 
 @media screen and (max-width:800px){
@@ -374,6 +431,50 @@ overflow-y: auto;
             
         }
     }
+.withdraw-content{
+    .search-bar{
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    .search-tokens{
+position: relative;
+height: 66vh;
+overflow-y: auto;
+        .token{
+            align-items: center;
+            img{
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+            }
+
+            .token-name{
+                margin-left: 10px;
+.h6{
+    font-size: 15px;
+}
+                .amount-read{
+                    color: rgba(255, 255, 255,0.5);
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .owned-token{
+            text-align: right;
+            font-size: 14px;
+            .owned{
+                color: white;
+            }
+           .amount{
+            color: rgba(255, 255, 255,0.5);
+           }
+        }
+    }
+}
+   
 
     .bottom-nav{
         display: block;

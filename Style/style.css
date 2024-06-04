@@ -227,6 +227,53 @@ body {
   display: none;
 }
 
+.withdraw-content .search-bar {
+  padding: 20px;
+  width: 50%;
+  border-radius: 50px;
+  align-items: center;
+  background-color: rgba(100, 100, 100, 0.1);
+}
+.withdraw-content .search-bar i {
+  margin-left: 10px;
+  color: gray;
+}
+.withdraw-content .search-bar input {
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  width: 90%;
+  outline: none;
+}
+.withdraw-content .search-tokens {
+  position: relative;
+  height: 66vh;
+  overflow-y: auto;
+}
+.withdraw-content .search-tokens::-webkit-scrollbar {
+  display: none;
+}
+.withdraw-content .search-tokens .token {
+  align-items: center;
+}
+.withdraw-content .search-tokens .token img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.withdraw-content .search-tokens .token .token-name {
+  margin-left: 20px;
+}
+.withdraw-content .search-tokens .token .token-name .amount-read {
+  color: rgba(255, 255, 255, 0.5);
+}
+.withdraw-content .search-tokens .owned-token {
+  text-align: right;
+  position: absolute;
+  right: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 @media screen and (max-width: 800px) {
   .side-nav {
     display: none;
@@ -315,6 +362,43 @@ body {
   }
   .interface .card-bal .btn-hold a span {
     font-size: 12px;
+  }
+  .withdraw-content .search-bar {
+    padding: 10px;
+    width: 100%;
+  }
+  .withdraw-content .search-tokens {
+    position: relative;
+    height: 66vh;
+    overflow-y: auto;
+  }
+  .withdraw-content .search-tokens .token {
+    align-items: center;
+  }
+  .withdraw-content .search-tokens .token img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  .withdraw-content .search-tokens .token .token-name {
+    margin-left: 10px;
+  }
+  .withdraw-content .search-tokens .token .token-name .h6 {
+    font-size: 15px;
+  }
+  .withdraw-content .search-tokens .token .token-name .amount-read {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  }
+  .withdraw-content .search-tokens .owned-token {
+    text-align: right;
+    font-size: 14px;
+  }
+  .withdraw-content .search-tokens .owned-token .owned {
+    color: white;
+  }
+  .withdraw-content .search-tokens .owned-token .amount {
+    color: rgba(255, 255, 255, 0.5);
   }
   .bottom-nav {
     display: block;
