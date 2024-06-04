@@ -90,7 +90,6 @@ a{
     width: 85%;
     margin-left: 230px;
     height: 100vh;
-    overflow-y: auto;
 
     .header{
         background-color:rgba(21, 23, 25,0.3);
@@ -220,6 +219,12 @@ right: 0px;
     .tokens{
         border-top: 1px solid rgba(255, 255, 255,0.1);
 position: relative;
+height: 51vh;
+overflow-y: auto;
+
+&::-webkit-scrollbar{
+    display: none;
+}
         .token{
             margin-top: 35px;
             align-items: center;

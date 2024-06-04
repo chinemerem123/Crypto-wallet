@@ -87,7 +87,6 @@ body {
   width: 85%;
   margin-left: 230px;
   height: 100vh;
-  overflow-y: auto;
 }
 .interface .header {
   background-color: rgba(21, 23, 25, 0.3);
@@ -197,6 +196,11 @@ body {
 .interface .tokens {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
+  height: 51vh;
+  overflow-y: auto;
+}
+.interface .tokens::-webkit-scrollbar {
+  display: none;
 }
 .interface .tokens .token {
   margin-top: 35px;
