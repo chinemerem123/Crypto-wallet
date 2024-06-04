@@ -98,7 +98,7 @@ body {
 }
 .interface .not-pro {
   position: absolute;
-  right: 10px;
+  right: 0px;
 }
 .interface .not-pro .notification {
   position: relative;
