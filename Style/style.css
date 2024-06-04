@@ -211,6 +211,9 @@ body {
   .interface .not-pro .profile-holder .ID {
     display: none;
   }
+  .interface .card-bal .h6 {
+    font-size: 13px;
+  }
   .interface .card-bal .amount-display {
     font-size: 30px;
     font-weight: bold;
