@@ -244,6 +244,7 @@ body {
   margin-left: 10px;
   width: 90%;
   outline: none;
+  color: white;
 }
 .withdraw-content .search-tokens {
   position: relative;
@@ -272,6 +273,32 @@ body {
   position: absolute;
   right: 0;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.send-box {
+  padding: 25px;
+  background-color: #24272a;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.send-box form {
+  margin-top: 15px;
+}
+.send-box form input {
+  background-color: transparent;
+  outline: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.send-box form input:focus {
+  background-color: transparent;
+}
+.send-box form label {
+  color: gray;
 }
 
 @media screen and (max-width: 800px) {

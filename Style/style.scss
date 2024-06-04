@@ -274,6 +274,7 @@ overflow-y: auto;
             margin-left: 10px;
             width: 90%;
             outline: none;
+            color: white;
         }
     }
     
@@ -308,6 +309,34 @@ overflow-y: auto;
             position: absolute;
             right: 0;
             color: rgba(255, 255, 255,0.5);
+        }
+    }
+}
+
+.send-box{
+    padding: 25px;
+    background-color: #24272a;
+    width: 50%;
+    position: relative;
+    left: calc(50% - 25%);
+    margin-top: 30px;
+    border-radius: 20px;
+
+    form{
+        margin-top: 15px;
+        input{
+            background-color: transparent;
+            outline: none !important;
+            border: 1px solid rgba(255, 255, 255,0.2);
+            padding: 12px;
+            color:rgba(255, 255, 255,0.5) !important;
+
+            &:focus{
+                background-color: transparent;
+            }
+        }
+        label{
+          color: gray;
         }
     }
 }
