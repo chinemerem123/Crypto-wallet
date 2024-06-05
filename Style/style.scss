@@ -413,6 +413,77 @@ overflow-y: auto;
 }
 
 
+.view-token{
+    .cur{
+        color: gray;
+        font-size: 14px;
+    }
+
+    .current-bal{
+        .h3{
+            font-weight: bold;
+            margin-top: 12px;
+        }
+      
+    }
+    .own-preview{
+        .own-bal{
+            color: rgb(88, 88, 88);
+        }
+    }
+
+    
+    .btn-hold{
+        position: relative;
+        width: 50% !important;
+        left: calc(50% - 25%);
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+      &:nth-child(2){
+        margin-left: 90px;
+      }
+
+      &:nth-child(3){
+        margin-left: 90px;
+      }
+            .action-hold{
+                position: relative;
+                width: 60px;
+                height:60px ;
+                left: calc(50% - 35px);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 255, 255,0.1);
+                border-radius: 50%;
+                svg{
+                    fill: white;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            span{
+             position: relative;
+             top: 10px;
+             font-size: 16px;
+            }
+        }
+
+   
+    }
+    
+   
+}
+
+
+.app{
+    overflow-y:auto;
+}
 
 
 @media screen and (max-width:1200px){
@@ -652,6 +723,44 @@ overflow-y: auto;
                     display: none;
                 }
             }
+        }
+    }
+
+    .view-token{
+        .btn-hold{
+            position: relative;
+            width: 100% !important;
+            left: calc(50% - 50%);
+            margin-top: 25px;
+
+            
+        a{
+            &:nth-child(2){
+              margin-left: 50px;
+            }
+  
+            &:nth-child(3){
+              margin-left: 50px;
+            }
+                  .action-hold{
+                 
+                      width: 50px;
+                      height:50px;
+                      left: calc(50% - 25px);
+
+                      svg{
+                          fill: white;
+                          width: 25px;
+                          height: 25px;
+                      }
+                    
+                  }
+                  span{
+                    font-size: 12px;
+                  }
+  
+                
+              }
         }
     }
 

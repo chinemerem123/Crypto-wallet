@@ -365,6 +365,58 @@ body {
   color: rgb(82, 82, 82);
 }
 
+.view-token .cur {
+  color: gray;
+  font-size: 14px;
+}
+.view-token .current-bal .h3 {
+  font-weight: bold;
+  margin-top: 12px;
+}
+.view-token .own-preview .own-bal {
+  color: rgb(88, 88, 88);
+}
+.view-token .btn-hold {
+  position: relative;
+  width: 50% !important;
+  left: 25%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-token .btn-hold a:nth-child(2) {
+  margin-left: 90px;
+}
+.view-token .btn-hold a:nth-child(3) {
+  margin-left: 90px;
+}
+.view-token .btn-hold a .action-hold {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: calc(50% - 35px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.view-token .btn-hold a .action-hold svg {
+  fill: white;
+  width: 30px;
+  height: 30px;
+}
+.view-token .btn-hold a span {
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+}
+
+.app {
+  overflow-y: auto;
+}
+
 @media screen and (max-width: 1200px) {
   .colu-2 {
     display: none;
@@ -555,5 +607,30 @@ body {
   }
   .bottom-nav .items a span {
     display: none;
+  }
+  .view-token .btn-hold {
+    position: relative;
+    width: 100% !important;
+    left: 0%;
+    margin-top: 25px;
+  }
+  .view-token .btn-hold a:nth-child(2) {
+    margin-left: 50px;
+  }
+  .view-token .btn-hold a:nth-child(3) {
+    margin-left: 50px;
+  }
+  .view-token .btn-hold a .action-hold {
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 25px);
+  }
+  .view-token .btn-hold a .action-hold svg {
+    fill: white;
+    width: 25px;
+    height: 25px;
+  }
+  .view-token .btn-hold a span {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
