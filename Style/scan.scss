@@ -22,7 +22,6 @@
 
 .address{
     width: 100%;
-    text-align: center;
 }
 .a-btn{
     margin-top: 15px;
@@ -33,5 +32,8 @@
 @media screen and (max-width:1200px){
     .a-btn{
         width: 100%;
+    }
+    .address{
+        font-size: 11px;
     }
 }
