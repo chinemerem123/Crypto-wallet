@@ -24,8 +24,12 @@ body {
   align-items: center;
 }
 
+.colu-2 {
+  position: relative;
+}
+
 .side-nav {
-  width: 230px;
+  width: inherit;
   height: 100vh;
   position: fixed;
   left: 0;
@@ -38,7 +42,7 @@ body {
 }
 .side-nav .nav-items .item {
   text-decoration: none;
-  margin-top: 35px;
+  margin-top: 38px;
   transition: 0.2s;
   color: rgb(230, 230, 230);
 }
@@ -84,8 +88,6 @@ body {
 }
 
 .interface {
-  width: 85%;
-  margin-left: 230px;
   height: 100vh;
 }
 .interface .header {
@@ -154,7 +156,7 @@ body {
   color: gray;
 }
 .interface .card-bal .amount-display {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 .interface .card-bal .btn-hold {
@@ -174,8 +176,8 @@ body {
 }
 .interface .card-bal .btn-hold a .action-hold {
   position: relative;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   left: calc(50% - 35px);
   display: flex;
   align-items: center;
@@ -185,8 +187,8 @@ body {
 }
 .interface .card-bal .btn-hold a .action-hold svg {
   fill: white;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 .interface .card-bal .btn-hold a span {
   position: relative;
@@ -196,7 +198,7 @@ body {
 .interface .tokens {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
-  height: 51vh;
+  height: 47vh;
   overflow-y: auto;
 }
 .interface .tokens::-webkit-scrollbar {
@@ -362,7 +364,14 @@ body {
   color: rgb(82, 82, 82);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
+  .colu-2 {
+    display: none;
+  }
+  .colu-3 {
+    display: block;
+    width: 100%;
+  }
   .side-nav {
     display: none;
   }
@@ -387,7 +396,7 @@ body {
   .interface .tokens {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
-    height: 44vh;
+    height: 55vh;
     overflow-y: auto;
   }
   .interface .tokens .token {

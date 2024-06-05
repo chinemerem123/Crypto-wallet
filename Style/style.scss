@@ -33,8 +33,12 @@ body{
         color: #5593ff;
     }
 }
+
+.colu-2{
+    position: relative;
+}
 .side-nav{
-width: 230px;
+    width:inherit;
 height: 100vh;
 position: fixed;
 left: 0;
@@ -46,7 +50,7 @@ border-right: 1px solid rgb(74, 74, 74);
     font-size: 14px;
     .item{
         text-decoration: none;
-        margin-top: 35px;
+        margin-top: 38px;
         transition: 0.2s;
         color: rgb(230, 230, 230);
        
@@ -87,8 +91,6 @@ a{
 
 }
 .interface{
-    width: 85%;
-    margin-left: 230px;
     height: 100vh;
 
     .header{
@@ -166,7 +168,7 @@ right: 0px;
             color: gray;
         }
         .amount-display{
-            font-size: 40px;
+            font-size: 30px;
             font-weight: bold;
         }
 
@@ -189,8 +191,8 @@ right: 0px;
           }
                 .action-hold{
                     position: relative;
-                    width: 70px;
-                    height:70px ;
+                    width: 60px;
+                    height:60px ;
                     left: calc(50% - 35px);
                     display: flex;
                     align-items: center;
@@ -199,8 +201,8 @@ right: 0px;
                     border-radius: 50%;
                     svg{
                         fill: white;
-                        width: 35px;
-                        height: 35px;
+                        width: 30px;
+                        height: 30px;
                     }
                 }
 
@@ -219,7 +221,7 @@ right: 0px;
     .tokens{
         border-top: 1px solid rgba(255, 255, 255,0.1);
 position: relative;
-height: 51vh;
+height: 47vh;
 overflow-y: auto;
 
 &::-webkit-scrollbar{
@@ -412,7 +414,15 @@ overflow-y: auto;
 
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1200px){
+
+    .colu-2{
+        display: none;
+    }
+    .colu-3{
+        display:block;
+        width: 100%;
+    }
 
     @mixin mag{
         margin-left: 40px;
@@ -445,8 +455,7 @@ overflow-y: auto;
         .tokens{
             border-top: 1px solid rgba(255, 255, 255,0.1);
     position: relative;
-
-    height: 44vh;
+    height: 55vh;
     overflow-y: auto;
             .token{
                 margin-top: 35px;
