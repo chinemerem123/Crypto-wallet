@@ -220,6 +220,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 .interface .tokens .owned-token {
+  text-align: right;
   position: absolute;
   right: 0;
   color: rgba(255, 255, 255, 0.5);
