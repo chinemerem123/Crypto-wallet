@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="/Style/scan.css">
   </head>
   <body class="bg-color">
 
@@ -66,7 +67,7 @@
     <div class="container-fluid p-4">
         <!-- HEADER FOR MAIN INTERFACE-->
     <div class="header d-flex">
-    <div class="h3 text-white title">Depsoit</div>
+    <div class="h3 text-white title">Dashbaord</div>
     <div class="not-pro d-flex">
     
         <!--NOTIFICATION HOLDER-->
@@ -99,91 +100,28 @@
     </div>
       <!-- HEADER FOR MAIN INTERFACE ENDS HERE-->
     
-  
-  <!--WALLET CONTENT -->
-  <div class="withdraw-content">
-
-    <!--SEARCH BAR-->
-        <div class="search-bar d-flex mt-3 mt-md-4">
-            <i class="bi bi-search"></i>
-            <input type="text" name="" id="" placeholder="Search for token">
-        </div>
-        <!--SEARCH BAR ENDS HERE-->
-    
-        <!-- TOKEN DISPLAY-->
-    <div class="search-tokens mt-4 mt-md-5">
-        
-        <a href="./deposit-token.html" class="text-decoration-none">
-            <div class="token d-flex">
-                <img src="/img/crypto coins/bitcoin.webp" alt="">
-                <div class="token-name text-white">
-                    <span class="name h6">BTC</span><br>
-                    <span class="amount-read">$68,970.06 <span class="text-success"> +2.06%</span></span>
-                </div>
-                
-                <div class="owned-token text-right">
-                <span class="owned">0</span><br>
-                <span class="amount">$0.00</span>
-                </div>
-                
-                </div>
-        </a>
-        
-        <a href="./deposit-token.html" class="text-decoration-none">
-        <div class="token d-flex mt-4 mt-md-5">
-            <img src="/img/crypto coins/ethereum.webp" alt="">
-            <div class="token-name text-white">
-                <span class="name h6">ETH</span><br>
-                <span class="amount-read">$3,812.06 <span class="text-danger"> -0.34%</span></span>
-            </div>
-            
-            <div class="owned-token text-right">
-            <span class="owned">0</span><br>
-            <span class="amount">$0.00</span>
-            </div>
-            
-            </div>
-        </a>
-        
-        <a href="./deposit-token.html" class="text-decoration-none">
-            <div class="token d-flex mt-4 mt-md-5">
-                <img src="/img/crypto coins/Tether.webp" alt="">
-                <div class="token-name text-white">
-                    <span class="name h6">USDT</span><br>
-                    <span class="amount-read">$1 <span class="text-success"> +0.34%</span></span>
-                </div>
-                
-                <div class="owned-token text-right">
-                <span class="owned">50</span><br>
-                <span class="amount">$50.08</span>
-                </div>
-                
-                </div>
-            </a>
-        
-            <a href="./deposit-token.html" class="text-decoration-none">
-                <div class="token d-flex mt-4 mt-md-5">
-                    <img src="/img/crypto coins/solana.webp" alt="">
-                    <div class="token-name text-white">
-                        <span class="name h6">Solana</span><br>
-                        <span class="amount-read">$168 <span class="text-success"> +5.34%</span></span>
-                    </div>
-                    
-                    <div class="owned-token text-right">
-                    <span class="owned">2.004</span><br>
-                    <span class="amount">$345.08</span>
-                    </div>
-                    
-                    </div>
-                </a>
-
-                <br><br><br>
-        
-        </div>
-        <!-- TOKEN DISPLAY ENDS HERE-->
+     <!-- INPUT PAGES TO DISPLAY-->
+     <div class="text-warning info-text"><i class="bi bi-info-circle"></i> <span> only send Bitcoin (BTC) network assets to
+        this address. other assets will be lost forever</span>
     </div>
-      <!-- WALLET CONTENT ENDS HERE-->
+     <div class="container text-center mt-5">
+      
+<div class="coin-logo">
+    <img src="/img/crypto coins/bitcoin.webp" width="28" alt="">
+    <span class="text-white ms-1">BTC</span>
+</div>
 
+<div class="qr-code-container mt-2 p-3">
+    <img src="" id="qrImg" alt="">
+</div>
+
+<div class="address text-white mt-4"><span>bc1qsm2j3amkhezulrpld3axpsl7w367s0pppnxx5q</span></div>
+<a href="" class="btn btn-primary a-btn"> I have made payment</a>
+
+     </div>
+  
+ <!-- INPUT PAGES TO DISPLAY ENDS HERE -->
+    
     </div>
     </div>
         <!-- ACTUAL WALLET CONTENT ENDS HERE-->
@@ -200,7 +138,7 @@
             <g fill-rule="evenodd" clip-rule="evenodd">
                 <path d="M21.1 8.004C21.045 8 20.984 8 20.92 8h-2.525c-2.068 0-3.837 1.628-3.837 3.75s1.77 3.75 3.837 3.75h2.525c.064 0 .125 0 .182-.004a1.755 1.755 0 0 0 1.645-1.628c.004-.06.004-.125.004-.185V9.817c0-.06 0-.125-.004-.185a1.755 1.755 0 0 0-1.645-1.628m-2.928 4.746c.532 0 .963-.448.963-1s-.431-1-.963-1c-.533 0-.964.448-.964 1s.431 1 .964 1"/><path d="M20.918 17a.22.22 0 0 1 .221.278c-.2.712-.519 1.32-1.03 1.83c-.749.75-1.698 1.081-2.87 1.239c-1.14.153-2.595.153-4.433.153h-2.112c-1.838 0-3.294 0-4.433-.153c-1.172-.158-2.121-.49-2.87-1.238c-.748-.749-1.08-1.698-1.238-2.87C2 15.099 2 13.644 2 11.806v-.112C2 9.856 2 8.4 2.153 7.26c.158-1.172.49-2.121 1.238-2.87c.749-.748 1.698-1.08 2.87-1.238C7.401 3 8.856 3 10.694 3h2.112c1.838 0 3.294 0 4.433.153c1.172.158 2.121.49 2.87 1.238c.511.512.83 1.119 1.03 1.831a.22.22 0 0 1-.221.278h-2.524c-2.837 0-5.337 2.24-5.337 5.25s2.5 5.25 
             5.337 5.25zM5.75 7a.75.75 0 0 0 0 1.5h4a.75.75 0 0 0 0-1.5z"/></g></svg>
-         <br> <span class="ms-2"> Deposit </span></a>
+         <br> <span class="ms-2"> Dashboard</span></a>
 
     <a href="./market.html" class="item"> 
         <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24">
@@ -240,5 +178,55 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-  </body>
+ 
+<!-- JS CODE FOR DEPSOIT QR CODE-->
+
+<script>
+
+let qrcode=document.getElementById("qrImg");
+let add="bc1qsm2j3amkhezulrpld3axpsl7w367s0pppnxx5q";
+let am=localStorage.getItem("crypto-amount");
+let cryn=localStorage.getItem("crytoname");
+
+qrcode.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+cryn+":"+add+"?amount="+am;
+
+document.querySelector(".add-show").value=add;
+document.querySelector("#cry-name").innerText=cryn;
+document.querySelector(".amt-show").value=am;
+
+let btncopy=document.querySelector(".copy-add");
+let btnCopy=document.querySelector(".copy-am");
+
+
+btncopy.addEventListener('click',()=>{
+document.querySelector(".add-show").select();
+  document.execCommand("copy");
+document.getElementById("copied-add").textContent="copied";
+
+setTimeout(() => {
+document.getElementById("copied-add").textContent="copy";
+}, 2500);
+
+})
+
+btnCopy.addEventListener('click',()=>{
+document.querySelector(".amt-show").select();
+  document.execCommand("copy");
+document.getElementById("copy-ad").textContent="copied";
+
+setTimeout(() => {
+document.getElementById("copy-ad").textContent="copy";
+}, 2500);
+
+})
+
+function home(){
+window.location.replace("/index.html");
+}
+
+  </script>
+
+  <!-- JS CODE FOR DEPSOIT QR CODE ENDS HERE-->
+
+</body>
 </html>

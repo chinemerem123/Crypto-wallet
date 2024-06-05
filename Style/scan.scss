@@ -1,0 +1,37 @@
+
+.info-text{
+    font-size: 12px;
+}
+
+.qr-code-container{
+    position: relative;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    left: calc(50% - 125px);
+    img{
+        position: relative;
+        width: 200px;
+        left: calc(50% - 110px);
+        margin-top: 5px;
+    
+}
+
+
+}
+
+.address{
+    width: 100%;
+    text-align: center;
+}
+.a-btn{
+    margin-top: 15px;
+    padding: 12px;
+    width: 50%;
+}
+
+@media screen and (max-width:1200px){
+    .a-btn{
+        width: 100%;
+    }
+}
