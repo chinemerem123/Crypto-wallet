@@ -24,6 +24,44 @@ body {
   align-items: center;
 }
 
+/** SCAN QR CODE FOR DEPOSITE SCREEN***/
+.info-text {
+  font-size: 12px;
+}
+
+.qr-code-container {
+  position: relative;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  left: calc(50% - 125px);
+}
+.qr-code-container img {
+  position: relative;
+  width: 200px;
+  left: calc(50% - 110px);
+  margin-top: 5px;
+}
+
+.address {
+  width: 100%;
+}
+
+.a-btn {
+  margin-top: 15px;
+  padding: 12px;
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .a-btn {
+    width: 100%;
+  }
+  .address {
+    font-size: 11px;
+  }
+}
+/** SCAN QR CODE FOR DEPOSITE SCREEN ENDS HERE***/
 .colu-2 {
   position: relative;
 }
@@ -458,6 +496,59 @@ body {
 }
 .app::-webkit-scrollbar {
   display: none;
+}
+
+.swap-box {
+  margin-top: 30px;
+  position: relative;
+  width: 60%;
+  background-color: transparent;
+  left: 20%;
+  padding: 20px;
+  border: none;
+}
+.swap-box .from {
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #202020;
+  border: none;
+  position: relative;
+}
+.swap-box .from .coin-amt .coin-log-name img {
+  width: 40px;
+  height: 40px;
+}
+.swap-box .from .coin-amt input {
+  position: absolute;
+  right: 30px;
+  text-align: right;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.swap-box .to {
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  background-color: #202020;
+  border: none;
+  position: relative;
+  margin-top: 20px;
+}
+.swap-box .to .coin-amt input {
+  position: absolute;
+  right: 30px;
+  text-align: right;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 @media screen and (max-width: 1200px) {
