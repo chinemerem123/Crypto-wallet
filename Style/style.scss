@@ -444,11 +444,15 @@ overflow-y: auto;
 
         a{
       &:nth-child(2){
-        margin-left: 90px;
+        margin-left: 70px;
       }
 
       &:nth-child(3){
-        margin-left: 90px;
+        margin-left: 70px;
+      }
+
+      &:nth-child(4){
+        margin-left: 70px;
       }
             .action-hold{
                 position: relative;
@@ -477,17 +481,68 @@ overflow-y: auto;
    
     }
     
+    .histories{
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+
+        .send-to{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #202020;
+
+            svg{
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .name-to{
+            .h6{
+                color: rgb(206, 206, 206);
+            }
+            .to{
+                color: rgb(75, 75, 75);
+            }
+        }
+
+        .amt-price{
+            text-align: right;
+            position: absolute;
+            right: 0;
+            .h6{
+                color: rgb(206, 206, 206);
+            }
+            .price{
+                color: rgb(75, 75, 75);
+            }
+        }
+    }
    
 }
 
 
 .app{
+    width: 100%;
+    height: 100vh;
     overflow-y:auto;
+    &::-webkit-scrollbar{
+        display: none;
+    }
 }
 
 
 @media screen and (max-width:1200px){
-
+    .app{
+        width: 100%;
+        height: 95vh;
+        overflow-y:auto;
+    }
+    
     .colu-2{
         display: none;
     }
@@ -736,12 +791,16 @@ overflow-y: auto;
             
         a{
             &:nth-child(2){
-              margin-left: 50px;
+              margin-left: 28px;
             }
   
             &:nth-child(3){
-              margin-left: 50px;
+              margin-left: 28px;
             }
+
+            &:nth-child(4){
+                margin-left: 28px;
+              }
                   .action-hold{
                  
                       width: 50px;
@@ -761,6 +820,50 @@ overflow-y: auto;
   
                 
               }
+        }
+
+        .histories{
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+    
+            .send-to{
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background-color: #202020;
+    
+                svg{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+    
+            .name-to{
+                font-size: 14px;
+                .h6{
+                    color: rgb(206, 206, 206);
+                }
+                .to{
+                    color: rgb(75, 75, 75);
+                }
+            }
+    
+            .amt-price{
+                font-size: 14px;
+                text-align: right;
+                position: absolute;
+                right: 0;
+                .h6{
+                    color: rgb(206, 206, 206);
+                }
+                .price{
+                    color: rgb(75, 75, 75);
+                }
+            }
         }
     }
 

@@ -386,10 +386,13 @@ body {
   align-items: center;
 }
 .view-token .btn-hold a:nth-child(2) {
-  margin-left: 90px;
+  margin-left: 70px;
 }
 .view-token .btn-hold a:nth-child(3) {
-  margin-left: 90px;
+  margin-left: 70px;
+}
+.view-token .btn-hold a:nth-child(4) {
+  margin-left: 70px;
 }
 .view-token .btn-hold a .action-hold {
   position: relative;
@@ -412,12 +415,57 @@ body {
   top: 10px;
   font-size: 16px;
 }
+.view-token .histories {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.view-token .histories .send-to {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #202020;
+}
+.view-token .histories .send-to svg {
+  width: 30px;
+  height: 30px;
+}
+.view-token .histories .name-to .h6 {
+  color: rgb(206, 206, 206);
+}
+.view-token .histories .name-to .to {
+  color: rgb(75, 75, 75);
+}
+.view-token .histories .amt-price {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+.view-token .histories .amt-price .h6 {
+  color: rgb(206, 206, 206);
+}
+.view-token .histories .amt-price .price {
+  color: rgb(75, 75, 75);
+}
 
 .app {
+  width: 100%;
+  height: 100vh;
   overflow-y: auto;
+}
+.app::-webkit-scrollbar {
+  display: none;
 }
 
 @media screen and (max-width: 1200px) {
+  .app {
+    width: 100%;
+    height: 95vh;
+    overflow-y: auto;
+  }
   .colu-2 {
     display: none;
   }
@@ -615,10 +663,13 @@ body {
     margin-top: 25px;
   }
   .view-token .btn-hold a:nth-child(2) {
-    margin-left: 50px;
+    margin-left: 28px;
   }
   .view-token .btn-hold a:nth-child(3) {
-    margin-left: 50px;
+    margin-left: 28px;
+  }
+  .view-token .btn-hold a:nth-child(4) {
+    margin-left: 28px;
   }
   .view-token .btn-hold a .action-hold {
     width: 50px;
@@ -632,5 +683,44 @@ body {
   }
   .view-token .btn-hold a span {
     font-size: 12px;
+  }
+  .view-token .histories {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .view-token .histories .send-to {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #202020;
+  }
+  .view-token .histories .send-to svg {
+    width: 20px;
+    height: 20px;
+  }
+  .view-token .histories .name-to {
+    font-size: 14px;
+  }
+  .view-token .histories .name-to .h6 {
+    color: rgb(206, 206, 206);
+  }
+  .view-token .histories .name-to .to {
+    color: rgb(75, 75, 75);
+  }
+  .view-token .histories .amt-price {
+    font-size: 14px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+  }
+  .view-token .histories .amt-price .h6 {
+    color: rgb(206, 206, 206);
+  }
+  .view-token .histories .amt-price .price {
+    color: rgb(75, 75, 75);
   }
 }/*# sourceMappingURL=style.css.map */
