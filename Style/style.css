@@ -588,7 +588,72 @@ body {
   left: 22%;
 }
 
+.nft-wel {
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #202020;
+}
+
+.nft-card .card {
+  position: relative;
+  border: none;
+  background-color: #202020;
+  border-radius: 20px;
+}
+.nft-card .card .own-create {
+  position: relative;
+}
+.nft-card .card .own-create .own-by .title {
+  font-size: 12px;
+}
+.nft-card .card .own-create .own-by .name {
+  color: #c4c4c4;
+  font-size: 14px;
+}
+.nft-card .card .own-create .create-by {
+  position: absolute;
+  text-align: right;
+  right: 0;
+}
+.nft-card .card .own-create .create-by .title {
+  font-size: 12px;
+}
+.nft-card .card .own-create .create-by .name {
+  color: #c4c4c4;
+  font-size: 14px;
+}
+.nft-card .card #nft-img {
+  width: 100%;
+  height: 220px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.nft-card .card .details .pricing {
+  position: relative;
+}
+.nft-card .card .details .pricing .token img {
+  width: 38px;
+  height: 38px;
+  margin-top: 5px;
+}
+.nft-card .card .details .pricing .token span {
+  font-size: 14px;
+}
+.nft-card .card .details .pricing a {
+  position: absolute;
+  right: 0;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.text-gray {
+  color: rgb(119, 119, 119);
+}
+
 @media screen and (max-width: 1200px) {
+  .nft-card {
+    margin-top: 20px;
+  }
   .swap-btn {
     width: 96%;
     left: 2%;

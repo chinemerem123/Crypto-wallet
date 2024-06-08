@@ -1,8 +1,3 @@
-let tokenImg=document.getElementById("token-img");
-// let crypto = document.getElementById("token-swap").selectedIndex;
-// let token = document.getElementsByTagName("option")[crypto].value;
-
-
 document.getElementsByTagName('select')[0].onchange = function() {
     var index = this.selectedIndex;
     var token = this.children[index].value;
@@ -28,18 +23,6 @@ document.getElementsByTagName('select')[0].onchange = function() {
     }
     
   }
-
-
-
-// switch(token){
-//     case usdt:
-//        
-//   }
-
-    // token.addEventListener('change', function(){
-    //     alert(this.token);
-    
-    // });
 
 
     
