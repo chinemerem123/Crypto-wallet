@@ -664,6 +664,44 @@ body {
   color: rgb(119, 119, 119);
 }
 
+/** NFT MODAL**/
+.nft-modal {
+  background-color: #141618 !important;
+}
+.nft-modal .body select {
+  margin-top: 10px;
+  width: 100%;
+  background-color: transparent;
+  color: rgb(204, 204, 204);
+  border: none;
+  outline: none;
+  padding: 12px;
+  background-color: #24272a;
+  border-radius: 10px;
+}
+.nft-modal .body select option {
+  background-color: #202020;
+}
+.nft-modal .body .price {
+  margin-top: 15px;
+  font-size: 13px;
+  position: relative;
+}
+.nft-modal .body .price .eth-price {
+  font-size: 13px;
+  color: gray;
+}
+.nft-modal .body .price .usd-price {
+  color: gray;
+  position: absolute;
+  right: 0;
+}
+.nft-modal .body .mtd {
+  font-size: 12px;
+  color: rgb(124, 124, 124);
+}
+
+/** NFT MODAL ENDS HERE**/
 @media screen and (max-width: 1200px) {
   .top-platfrom .card {
     margin-top: 15px;
