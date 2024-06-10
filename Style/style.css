@@ -646,11 +646,28 @@ body {
   border-radius: 50px;
 }
 
+.top-platfrom {
+  margin-top: 30px;
+}
+.top-platfrom .card {
+  background-color: #202020;
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+}
+.top-platfrom .card img {
+  width: 40px;
+  height: 40px;
+}
+
 .text-gray {
   color: rgb(119, 119, 119);
 }
 
 @media screen and (max-width: 1200px) {
+  .top-platfrom .card {
+    margin-top: 15px;
+  }
   .nft-card {
     margin-top: 20px;
   }
