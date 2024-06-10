@@ -654,6 +654,9 @@ body {
   .nft-card {
     margin-top: 20px;
   }
+  #bal-def {
+    width: 100px;
+  }
   .swap-btn {
     width: 96%;
     left: 2%;
