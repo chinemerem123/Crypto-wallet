@@ -818,13 +818,64 @@ option{
        .mtd{
         font-size: 12px;
         color: rgb(124, 124, 124);
-        
+
        }
     }
 }
 /** NFT MODAL ENDS HERE**/
 
+.ror{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    overflow-x: auto;
+    // z-index: -10;
+
+    .chat-box{
+        background-color: #202020;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: calc(50% - 50%);
+        border-radius: 70px;
+        input{
+        width: 90%;
+        background-color: transparent;
+        border: none;
+        color: white;
+        margin-left: 20px;
+        outline: none;
+        }
+        button{
+            border: none;
+            outline: none;
+            background-color: transparent;
+        }
+    }
+}
+
+
 @media screen and (max-width:1200px){
+
+    .ror{
+    
+        .chat-box{
+            border-radius: 20px;
+            input{
+            width: 65%;
+            background-color: transparent;
+            border: none;
+            color: white;
+            outline: none;
+            }
+            button{
+                border: none;
+                outline: none;
+                background-color: transparent;
+            }
+        }
+    }
 
     .top-platfrom{
         .card{
