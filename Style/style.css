@@ -682,6 +682,16 @@ body {
 .nft-modal .body select option {
   background-color: #202020;
 }
+.nft-modal .body input {
+  width: 100%;
+  padding: 12px;
+  background-color: #24272a;
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 10px;
+}
 .nft-modal .body .price {
   margin-top: 15px;
   font-size: 13px;
