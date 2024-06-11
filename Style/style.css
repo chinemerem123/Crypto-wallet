@@ -731,6 +731,26 @@ body {
   background-color: transparent;
 }
 
+.messages .card {
+  background-color: #202020;
+  border: none;
+  margin-top: 20px;
+}
+.messages .card .msg {
+  border-bottom: 1px solid rgb(54, 54, 54);
+}
+.messages .card .msg img {
+  width: 50px;
+  height: 50px;
+}
+.messages .card .msg .text-date {
+  margin-left: 20px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
 @media screen and (max-width: 1200px) {
   .ror .chat-box {
     border-radius: 20px;
