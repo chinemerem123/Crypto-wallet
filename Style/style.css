@@ -758,6 +758,26 @@ body {
   margin-left: 20px;
 }
 
+.others a {
+  text-decoration: none;
+}
+.others a .card {
+  background-color: #202020;
+  border-radius: 15px;
+}
+.others a .card .cel {
+  width: 40px;
+  height: 40px;
+  background-color: #2d2d2d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.others a .card .cel i {
+  color: #4388ff;
+}
+
 .fs-12 {
   font-size: 12px;
 }

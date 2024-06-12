@@ -885,6 +885,29 @@ option{
     }
 }
 
+.others{
+    a{
+        text-decoration: none;
+        .card{
+            background-color: #202020;
+            border-radius: 15px;
+
+            .cel{
+                width: 40px;
+                height: 40px;
+                background-color: #2d2d2d;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color: #4388ff;
+                }
+            }
+        }
+    }
+}
+
 .fs-12{
     font-size: 12px;
 }
