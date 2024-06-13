@@ -907,6 +907,49 @@ margin-top: 20px;
 .history{
     background-color: #202020;
     border: none;
+
+    .histories{
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+
+        .send-to{
+            width: 70px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #24272a;
+
+            svg{
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .name-to{
+            .h6{
+                color: rgb(206, 206, 206);
+            }
+            .to{
+                color: rgb(75, 75, 75);
+            }
+        }
+
+        .amt-price{
+            text-align: right;
+            position: absolute;
+            right: 0;
+            .h6{
+                color: rgb(206, 206, 206);
+            }
+            .price{
+                color: rgb(75, 75, 75);
+            }
+        }
+    }
+   
 }
 
 
@@ -1294,6 +1337,53 @@ overflow-y: auto;
     
             .amt-price{
                 font-size: 14px;
+                text-align: right;
+                position: absolute;
+                right: 0;
+                .h6{
+                    color: rgb(206, 206, 206);
+                }
+                .price{
+                    color: rgb(75, 75, 75);
+                }
+            }
+        }
+    }
+
+    .history{
+
+        .histories{
+            position: relative;
+            width: 100%;
+            margin-top: 20px;
+    
+            .send-to{
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+    
+                svg{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+    
+            .name-to{
+                font-size: 14px;
+                .h6{
+                    color: rgb(206, 206, 206);
+                }
+                .to{
+                    color: rgb(75, 75, 75);
+                    font-size: 12px;
+                }
+            }
+    
+            .amt-price{
+                font-size: 12px;
                 text-align: right;
                 position: absolute;
                 right: 0;

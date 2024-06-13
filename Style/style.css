@@ -777,6 +777,41 @@ body {
   background-color: #202020;
   border: none;
 }
+.history .histories {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.history .histories .send-to {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #24272a;
+}
+.history .histories .send-to svg {
+  width: 30px;
+  height: 30px;
+}
+.history .histories .name-to .h6 {
+  color: rgb(206, 206, 206);
+}
+.history .histories .name-to .to {
+  color: rgb(75, 75, 75);
+}
+.history .histories .amt-price {
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+.history .histories .amt-price .h6 {
+  color: rgb(206, 206, 206);
+}
+.history .histories .amt-price .price {
+  color: rgb(75, 75, 75);
+}
 
 .fs-12 {
   font-size: 12px;
@@ -1091,6 +1126,45 @@ body {
     color: rgb(206, 206, 206);
   }
   .view-token .histories .amt-price .price {
+    color: rgb(75, 75, 75);
+  }
+  .history .histories {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .history .histories .send-to {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .history .histories .send-to svg {
+    width: 20px;
+    height: 20px;
+  }
+  .history .histories .name-to {
+    font-size: 14px;
+  }
+  .history .histories .name-to .h6 {
+    color: rgb(206, 206, 206);
+  }
+  .history .histories .name-to .to {
+    color: rgb(75, 75, 75);
+    font-size: 12px;
+  }
+  .history .histories .amt-price {
+    font-size: 12px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+  }
+  .history .histories .amt-price .h6 {
+    color: rgb(206, 206, 206);
+  }
+  .history .histories .amt-price .price {
     color: rgb(75, 75, 75);
   }
 }/*# sourceMappingURL=style.css.map */
