@@ -333,31 +333,39 @@
 
 <!-- MODAL FOR NFT PAYMENT-->
 
-  <div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog ">
-      <div class="modal-content nft-modal p-3">
-        <div class="modal-header" >
-          <h1 class="modal-title h6 text-white" id="exampleModalLabel">Sell NFT</h1>
-         
+<div class="modal  fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content nft-modal p-4">
+     <div class="from">
+        <img src="./img/Logo/logo.png" width="20" alt="">
+        <span class="text-gray">Sell NFT</span>
+     </div>
+        <hr>
+        <div class="profile d-flex">
+<img src="./img/Nft/NFT Fest Apes.jpg" alt="">
+<span>Fest Apes NFT</span>
         </div>
 
-        <div class="body p-2 mt-2">
-            <div class="h6 text-white">
-                Fest Apes NFT
-            </div>
-
-            <div class="price d-flex">
-                <span class="eth-price"> 0.05 ETH</span>
-                <span class="usd-price">$500</span>
-            </div>
-           <input type="text" placeholder="Enter ethereum address">
-<br><br>
-          
+        <div class="price d-flex mt-4">
+<span class="nft-price text-gray">Price</span>
+<div class="price-right">
+<div class="eth-price text-white"> 
+    <img src="./img/crypto coins/ethereum.webp" width="20" alt="">
+    <span>0.05 ETH</span>
+</div>
+<span class="usd-price text-gray">$500</span>
+</div>
         </div>
-      
-        <div class="modal-footer p-2">
-         
-          <button type="button" class="btn btn-primary w-100 p-2">Sell NFT</button>
+
+        <div class="payment mt-5">
+            <span class="text-white">Payment method</span>
+            <select name="" id="" class="mt-3">
+                <option value="-">select Crypto currency</option>
+                <option value="btc">Bitcion - (0.005) $1000</option>
+                <option value="eth">Ethereum - (0.05) $500</option>
+            </select>
+            <p class="text-sm text-gray mt-3">select method to buy nft.</p>
+            <button class="btn btn-primary "> Buy NFT</button>
         </div>
       </div>
     </div>

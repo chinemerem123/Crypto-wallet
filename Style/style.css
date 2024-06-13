@@ -773,6 +773,11 @@ body {
   color: #4388ff;
 }
 
+.history {
+  background-color: #202020;
+  border: none;
+}
+
 .fs-12 {
   font-size: 12px;
 }
