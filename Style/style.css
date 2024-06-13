@@ -821,7 +821,80 @@ body {
   font-size: 14px;
 }
 
+.profile-page {
+  background-color: #202020;
+  position: relative;
+  border: none;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.profile-page .cover-img {
+  width: 100%;
+  height: 250px;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-mountains-landscape_23-2151151046.jpg?t=st=1718303850~exp=1718307450~hmac=5529d72683b29ff6903cc9eb2cd4c154f881b126550d3c1b684a6834d6b7b55e&w=1060");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.profile-page .edit {
+  position: relative;
+}
+.profile-page .edit a {
+  position: absolute;
+  right: 0;
+  margin-top: 30px;
+  padding: 12px;
+  width: 150px;
+  border-radius: 50px;
+}
+.profile-page .edit #my-profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  position: relative;
+  border: 15px solid #2a2a2a;
+  bottom: 40px;
+  left: 30px;
+}
+.profile-page .name-id {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 1200px) {
+  .profile-page {
+    background-color: #202020;
+    position: relative;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .profile-page .edit {
+    position: relative;
+  }
+  .profile-page .edit a {
+    position: absolute;
+    padding: 10px;
+    width: 150px;
+    width: 100%;
+    border-radius: 50px;
+    top: 40px;
+    font-size: 14px;
+  }
+  .profile-page .edit #my-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+    border: 10px solid #2a2a2a;
+    bottom: 40px;
+    left: 10px;
+  }
+  .profile-page .name-id {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
   .ror .chat-box {
     border-radius: 20px;
   }
