@@ -785,52 +785,48 @@ margin-top: 20px;
 /** NFT MODAL**/
 .nft-modal{
     background-color: #141618 !important;
-    .body{
-       select{
-        margin-top: 10px;
-        width: 100%;
-        background-color: transparent;
-        color: rgb(204, 204, 204);
-        border: none;
-        outline: none;
-        padding: 12px;
-        background-color: #24272a;
-        border-radius: 10px;
-option{
-    background-color: #202020;
+.from{
+    span{
+        font-size: 14px;
+        margin-left: 12px;
+    }
 }
-       }
-
-       input{
-        width: 100%;
-        padding: 12px;
-        background-color: #24272a;
-        color: white;
-        border: none;
-        outline: none;
-        margin-top: 10px;
-        border-radius: 10px;
-       }
-
-       .price{
-        margin-top: 15px;
-        font-size: 13px;
-        position: relative;
-        .eth-price{
-            font-size: 13px;
-            color: gray;
+    .profile{
+        align-items: center;
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
         }
-        .usd-price{
-            color: gray;
+        span{
+            margin-left: 15px;
+            color: white;
+        }
+    }
+
+    .price{
+        position: relative;
+        .price-right{
             position: absolute;
             right: 0;
+            text-align: right;
         }
-       }
-       .mtd{
-        font-size: 12px;
-        color: rgb(124, 124, 124);
+    }
 
-       }
+    .payment{
+        select{
+            width: 100%;
+            outline: none;
+            border: none;
+            background-color: #202020;
+            padding: 12px;
+            color: gray;
+            border-radius: 10px;
+        }
+        button{
+            width: 100%;
+            padding: 12px;
+        }
     }
 }
 /** NFT MODAL ENDS HERE**/
@@ -910,6 +906,10 @@ option{
 
 .fs-12{
     font-size: 12px;
+}
+
+.text-sm{
+    font-size: 14px;
 }
 
 @media screen and (max-width:1200px){

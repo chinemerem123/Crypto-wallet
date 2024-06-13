@@ -668,47 +668,42 @@ body {
 .nft-modal {
   background-color: #141618 !important;
 }
-.nft-modal .body select {
-  margin-top: 10px;
-  width: 100%;
-  background-color: transparent;
-  color: rgb(204, 204, 204);
-  border: none;
-  outline: none;
-  padding: 12px;
-  background-color: #24272a;
-  border-radius: 10px;
+.nft-modal .from span {
+  font-size: 14px;
+  margin-left: 12px;
 }
-.nft-modal .body select option {
-  background-color: #202020;
+.nft-modal .profile {
+  align-items: center;
 }
-.nft-modal .body input {
-  width: 100%;
-  padding: 12px;
-  background-color: #24272a;
+.nft-modal .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.nft-modal .profile span {
+  margin-left: 15px;
   color: white;
-  border: none;
-  outline: none;
-  margin-top: 10px;
-  border-radius: 10px;
 }
-.nft-modal .body .price {
-  margin-top: 15px;
-  font-size: 13px;
+.nft-modal .price {
   position: relative;
 }
-.nft-modal .body .price .eth-price {
-  font-size: 13px;
-  color: gray;
-}
-.nft-modal .body .price .usd-price {
-  color: gray;
+.nft-modal .price .price-right {
   position: absolute;
   right: 0;
+  text-align: right;
 }
-.nft-modal .body .mtd {
-  font-size: 12px;
-  color: rgb(124, 124, 124);
+.nft-modal .payment select {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #202020;
+  padding: 12px;
+  color: gray;
+  border-radius: 10px;
+}
+.nft-modal .payment button {
+  width: 100%;
+  padding: 12px;
 }
 
 /** NFT MODAL ENDS HERE**/
@@ -780,6 +775,10 @@ body {
 
 .fs-12 {
   font-size: 12px;
+}
+
+.text-sm {
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1200px) {
