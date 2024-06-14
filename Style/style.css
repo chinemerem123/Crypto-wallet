@@ -862,7 +862,52 @@ body {
   margin-top: 20px;
 }
 
+.notfication-box .card {
+  background-color: #202020;
+  border: none;
+}
+.notfication-box .card .msg .cir {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24272a;
+}
+.notfication-box .card .msg .cir i {
+  font-size: 20px;
+  color: #2575ff;
+}
+.notfication-box .card .msg .text-date {
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 1200px) {
+  .notfication-box .card .msg {
+    position: relative;
+  }
+  .notfication-box .card .msg .cir {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24272a;
+  }
+  .notfication-box .card .msg .cir i {
+    font-size: 20px;
+    color: #2575ff;
+  }
+  .notfication-box .card .msg .text-date {
+    position: relative;
+    margin-left: 20px;
+  }
+  .notfication-box .card .msg .text-date .not {
+    font-size: 12px;
+  }
   .profile-page {
     background-color: #202020;
     position: relative;
