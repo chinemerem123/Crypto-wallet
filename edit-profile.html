@@ -29,7 +29,7 @@
            <!-- NAV ITEMS SECTION-->
 
            <div class="nav-items mt-4 ">
-           <a href="./index.html" class="d-flex ms-3 item"> <i class="bi bi-layout-sidebar"></i> <span class="ms-2"> Dashboard</span></a>
+           <a href="./index.html" class="d-flex ms-3 item "> <i class="bi bi-layout-sidebar"></i> <span class="ms-2"> Dashboard</span></a>
            <a href="./market.html" class="d-flex ms-3 item  "> <i class="bi bi-shop"></i>
             <div class="position-relative">
                 <span class="ms-2"> NFT Marketplace </span>
@@ -63,10 +63,11 @@
     <div class="col-md-10 colu-3">
    <!-- ACTUAL WALLET CONTENT-->
    <div class="interface">
+    <div class="app">
     <div class="container-fluid p-4">
         <!-- HEADER FOR MAIN INTERFACE-->
     <div class="header d-flex">
-    <div class="h3 text-white title">Profile</div>
+    <div class="h3 text-white title">Edit Profile</div>
     <div class="not-pro d-flex">
     
         <!--NOTIFICATION HOLDER-->
@@ -100,26 +101,52 @@
       <!-- HEADER FOR MAIN INTERFACE ENDS HERE-->
     
      <!-- INPUT PAGES TO DISPLAY-->
-    <div class="card profile-page p-4">
-        <div class="cover-img"></div>
-        
-        <div class="edit d-flex">
-       <img src="./img/memoji-happy-man-white-background-emoji_826801-6839.avif" id="my-profile" alt="">
-       <div class="name-id">
-        <span class="name text-white">Martin White</span><br>
-        <span class="id fs-12 text-gray">ID: S43df4u</span>
-    </div>
-       <a href="./edit-profile.html" class="btn btn-primary">Edit Profile</a>
-    </div>
+    <div class="edit-profile mt-4">
+        <div class="card p-5">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="d-flex pro-edit">
+                        <img src="./img/memoji-happy-man-white-background-emoji_826801-6839.avif" alt="">
+                        <label for="upload">
+                            <i class="bi bi-upload"></i>
+                        </label>
+                        <input type="file" name="upload" id="upload" class="d-none">
+                    </div>
 
-   
+                    <div class="h5 text-white mt-2 text-center">Update PRofile</div>
+                    <span class="text-center text-gray">Profile of at least Size 300x300.</span>
+                </div>
 
-    
-      
+                <div class="col-md-9 col-sm-12 mt-4 mt-md-0">
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Username</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Code</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+
+                          
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Re-enter Code</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+
+                          <div class="mb-3">
+                            <button class="btn btn-primary">Update Change</button>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
  <!-- INPUT PAGES TO DISPLAY ENDS HERE -->
     
     </div>
+</div>
     </div>
         <!-- ACTUAL WALLET CONTENT ENDS HERE-->
     </div>
@@ -130,7 +157,7 @@
    <div class="bottom-nav w-100 nav-bg">
 <div class="container-fluid p-4">
 <div class="items text-center d-flex">
-    <a href="./index.html" class="item "> 
+    <a href="./index.html" class="item  "> 
         <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24">
             <g fill-rule="evenodd" clip-rule="evenodd">
                 <path d="M21.1 8.004C21.045 8 20.984 8 20.92 8h-2.525c-2.068 0-3.837 1.628-3.837 3.75s1.77 3.75 3.837 3.75h2.525c.064 0 .125 0 .182-.004a1.755 1.755 0 0 0 1.645-1.628c.004-.06.004-.125.004-.185V9.817c0-.06 0-.125-.004-.185a1.755 1.755 0 0 0-1.645-1.628m-2.928 4.746c.532 0 .963-.448.963-1s-.431-1-.963-1c-.533 0-.964.448-.964 1s.431 1 .964 1"/><path d="M20.918 17a.22.22 0 0 1 .221.278c-.2.712-.519 1.32-1.03 1.83c-.749.75-1.698 1.081-2.87 1.239c-1.14.153-2.595.153-4.433.153h-2.112c-1.838 0-3.294 0-4.433-.153c-1.172-.158-2.121-.49-2.87-1.238c-.748-.749-1.08-1.698-1.238-2.87C2 15.099 2 13.644 2 11.806v-.112C2 9.856 2 8.4 2.153 7.26c.158-1.172.49-2.121 1.238-2.87c.749-.748 1.698-1.08 2.87-1.238C7.401 3 8.856 3 10.694 3h2.112c1.838 0 3.294 0 4.433.153c1.172.158 2.121.49 2.87 1.238c.511.512.83 1.119 1.03 1.831a.22.22 0 0 1-.221.278h-2.524c-2.837 0-5.337 2.24-5.337 5.25s2.5 5.25 
