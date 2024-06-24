@@ -1079,6 +1079,20 @@ label{
 
 }
 
+.buy-nft{
+    .card{
+        background-color: #191919;
+        .nft-cover{
+            height: 400px;
+            width: 100%;
+            background-image: url("https://c4.wallpaperflare.com/wallpaper/776/58/423/robot-mech-animals-computer-parts-nft-cgi-hd-wallpaper-preview.jpg");
+            background-size: cover;
+            // background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
+
 @media screen and (max-width:1200px){
 
 
